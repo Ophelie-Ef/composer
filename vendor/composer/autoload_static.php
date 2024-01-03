@@ -16,6 +16,10 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
+        'C' => 
+        array (
+            'Colors\\' => 7,
+        ),
         'B' => 
         array (
             'Brick\\Math\\' => 11,
@@ -30,6 +34,10 @@ class ComposerStaticInit7422faf8f33d1f1cdfca8767e0ffc0f4
         'Ramsey\\Collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
+        ),
+        'Colors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mistic100/randomcolor/src',
         ),
         'Brick\\Math\\' => 
         array (

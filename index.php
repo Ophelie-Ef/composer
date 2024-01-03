@@ -20,7 +20,21 @@ $faker = Faker\Factory::create('fr_FR'); // alternative à "use"
             color: <?= RandomColor::one() ?>
         }
 
-        .card {}
+        img{
+            max-width: 100%;
+        }
+
+        .card {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .card article{
+            width: 200px;
+            border: solid 1px black;
+            border-radius: 10px;
+            padding: 1rem;
+        }
     </style>
 </head>
 

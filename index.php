@@ -2,8 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use \Colors\RandomColor;
-
 $faker = Faker\Factory::create('fr_FR'); // alternative à "use"
 
 ?>
@@ -17,10 +15,10 @@ $faker = Faker\Factory::create('fr_FR'); // alternative à "use"
     <title>Composer</title>
     <style>
         .colAl {
-            color: <?= RandomColor::one() ?>
+            color: <?= $faker->hexColor() ?>
         }
 
-        img{
+        img {
             max-width: 100%;
         }
 
@@ -29,7 +27,8 @@ $faker = Faker\Factory::create('fr_FR'); // alternative à "use"
             gap: 2rem;
             flex-wrap: wrap;
         }
-        .card article{
+
+        .card article {
             width: 200px;
             border: solid 1px black;
             border-radius: 10px;
